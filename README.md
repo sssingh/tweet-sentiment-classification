@@ -1,6 +1,6 @@
 # Tweet Sentiment Detection
 
-![](images/tweet_sentiment_detection.jpg)
+![](images/tweet_sentiment_title.png)
 
 ### Detect if the tweet is positive or negative
 
