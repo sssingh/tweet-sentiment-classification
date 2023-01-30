@@ -4,11 +4,11 @@ Our goal here is to detect the sentiment, positive or negative, carried by a twe
 ![](images/tweet_sentiment_title.png)
 
 ## Features
-⚡Binary Classification
-⚡Natural Language Processing (NLP)
-⚡Logistic Regression
-⚡Naive Bayes Classifier (implemented from scratch)
-⚡NLTK
+⚡Binary Classification  
+⚡Natural Language Processing (NLP)  
+⚡Logistic Regression  
+⚡Naive Bayes Classifier (implemented from scratch)  
+⚡NLTK  
 ⚡scikit-learn
 
 
@@ -79,12 +79,12 @@ The Naive Bayes is based on the Bayes theorem, but it makes an unrealistic assum
 ![](images/tweet_nb_pic3.png)
 
 
-## How To Use
+## How To Use/ Test the models
 *  Ensure the below-listed packages are installed
     - `sklearn`
     - `numpy`
-    - 'nltk'
-* download the jupyter notebook and utils.py
+    - `nltk`
+* download the jupyter notebook and `utils.py`
 * within the notenook...
   * Create couple of tweet strings (or copy a real tweet), one with positive sentiment and other with negative sentiment (refer example in the notebook)
   * Logistic Regression: call utils.predict function as shown below
