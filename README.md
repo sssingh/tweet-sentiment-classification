@@ -84,7 +84,7 @@ The Naive Bayes is based on the Bayes theorem, but it makes an unrealistic assum
     - `sklearn`
     - `numpy`
     - `nltk`
-* download the jupyter notebook and `utils.py`
+* download the jupyter notebook `tweet_sentiment_classification.ipynb` and `utils.py`
 * within the notenook...
   * Create couple of tweet strings (or copy a real tweet), one with positive sentiment and other with negative sentiment (refer example in the notebook)
   * Logistic Regression: call utils.predict function as shown below
