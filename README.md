@@ -17,9 +17,9 @@ Our goal here is to detect the sentiment, positive or negative, carried by a twe
 - [Data Preprocessing](#data-preprocessing)
 - [Logistic Regression](#logistic-regression)
 - [Naive Bayes Classifier](#naive-bayes-classifier)
-- [Test Models](#test-models)
+- [How to use](#how-to-use)
 - [License](#license)
-- [Author Info](#author-info)
+- [Get in touch](#get-in-touch)
 
 ## Introduction
 
@@ -79,7 +79,7 @@ The Naive Bayes is based on the Bayes theorem, but it makes an unrealistic assum
 ![](images/tweet_nb_pic3.png)
 
 
-## How To Use/ Test the models
+## How To Use
 *  Ensure the below-listed packages are installed
     - `sklearn`
     - `numpy`
