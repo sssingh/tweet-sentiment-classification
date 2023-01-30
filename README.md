@@ -1,12 +1,18 @@
 # Tweet Sentiment Detection
+Our goal here is to detect the sentiment, positive or negative, carried by a tweet using shallow-learning techniques. 
 
 ![](images/tweet_sentiment_title.png)
 
-### Detect if the tweet is positive or negative
+## Features
+⚡Binary Classification
+⚡Natural Language Processing (NLP)
+⚡Logistic Regression
+⚡Naive Bayes Classifier (implemented from scratch)
+⚡NLTK
+⚡scikit-learn
 
 
 ## Table of Contents
-
 - [Introduction](#introduction) 
 - [Data Preprocessing](#data-preprocessing)
 - [Logistic Regression](#logistic-regression)
@@ -15,22 +21,18 @@
 - [License](#license)
 - [Author Info](#author-info)
 
----
-
 ## Introduction
 
 We try to detect the `sentiment`, positive or negative, carried by a tweet in this project. We use two of the simplest but very effective classification algorithms... 
 
-a) Logistic Regression  
-b) Naive Bayes
+a) Logistic Regression 
+b) Naive Bayes 
 
 Broadly, the solution is divided into four parts…
 1) Preprocessing
 2) Building and training Logistic Regression
 3) Building and training Naive Bayes 
 4) Testing the trained models
-
----
 
 ## Data Preprocessing
 
@@ -65,8 +67,6 @@ Logistic regression is a statistical model pre-dominantly used for binary classi
 
 ![](images/tweet_lr_pic1.png)
 
----
-
 ## Naive Bayes Classifier
 
 ![](images/tweet_nb_pic1.png)
@@ -78,57 +78,34 @@ The Naive Bayes is based on the Bayes theorem, but it makes an unrealistic assum
 
 ![](images/tweet_nb_pic3.png)
 
----
- 
-## Test Models
 
-* Create couple of tweet strings (or copy a real tweet), one with positive sentiment and other with negative sentiment
-* Logistic Regression: call utils.predict function as shown below
-  ```python
-  sentiment = utils.get_sentiment(positive_test_tweet, lr_model, encode_tweet=True)
-  ```
+## How To Use
+*  Ensure the below-listed packages are installed
+    - `sklearn`
+    - `numpy`
+    - 'nltk'
+* download the jupyter notebook and utils.py
+* within the notenook...
+  * Create couple of tweet strings (or copy a real tweet), one with positive sentiment and other with negative sentiment (refer example in the notebook)
+  * Logistic Regression: call utils.predict function as shown below
+    ```python
+    sentiment = utils.get_sentiment(test_tweet, lr_model, encode_tweet=True)
+    ```
   
-  `sentiment` would be returned as 'POSITIVE' for the positive tweet and 'NEGATIVE' for the negative tweet. Note that the `encode_tweet` parameter is set to `True` to ensure that tweet tokens are encoded into features for Logistic Regression.
-* Naive Bayes: call utils.predict function as shown below
-  ```python
-  sentiment = utils.get_sentiment(positive_test_tweet, lr_model, encode_tweet=False)
-  ```
+    `sentiment` would be returned as 'POSITIVE' for the positive tweet and 'NEGATIVE' for the negative tweet. Note that the `encode_tweet` parameter is set to `True` to ensure that tweet tokens are encoded into features for Logistic Regression.
+  * Naive Bayes: call utils.predict function as shown below
+    ```python
+    sentiment = utils.get_sentiment(test_tweet, nb_model, encode_tweet=False)
+    ```
   
-  `sentiment` would be returned as 'POSITIVE' for the positive tweet and 'NEGATIVE' for the negative tweet. Note that the `encode_tweet` parameter is set to `False` in this case; this is to ensure that tweet tokens are used for the Naive Bayes model.
-
----
+    `sentiment` would be returned as 'POSITIVE' for the positive tweet and 'NEGATIVE' for the negative tweet. Note that the `encode_tweet` parameter is set to `False` in this case; this is to ensure that tweet tokens are used for the Naive Bayes model.
 
 ## License
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-MIT License
-
-Copyright (c) [2022] [Sunil S. Singh]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software") to deal
-in the software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the software, and to permit persons to whom the software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-## Author Info
-
-- Twitter - [@_sssingh](https://twitter.com/_sssingh)
-- Linkedin - [Sunil S. Singh](https://linkedin.com/in/sssingh)
+## Get in touch
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sssingh)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_sssingh)
+[![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://datamatrix-ml.com/)
 
 [Back To The Top](#Tweet-Sentiment-Detection)
-
----
