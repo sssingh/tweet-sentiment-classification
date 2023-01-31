@@ -1,7 +1,8 @@
 # Tweet Sentiment Detection
 Our goal here is to detect the sentiment, positive or negative, carried by a tweet using shallow-learning techniques. 
 
-![](images/tweet_sentiment_title.png)
+<img src="https://github.com/sssingh/tweet-sentiment-classification/blob/master/images/tweet_sentiment_title.png?raw=true">
+
 
 ## Features
 ⚡Binary Classification  
@@ -65,18 +66,18 @@ Convert each tweet into a data-point with three features
 ## Logistic Regression
 Logistic regression is a statistical model pre-dominantly used for binary classification problems. Logistic regression relies on `logistic function` a single variable(feature) logistic function is shown below
 
-![](images/tweet_lr_pic1.png)
+<img src="https://github.com/sssingh/tweet-sentiment-classification/blob/master/images/tweet_lr_pic1.png?raw=true>
 
 ## Naive Bayes Classifier
 
-![](images/tweet_nb_pic1.png)
+<img src="https://github.com/sssingh/tweet-sentiment-classification/blob/master/images/tweet_nb_pic1.png?raw=true>
 
 The Naive Bayes is based on the Bayes theorem, but it makes an unrealistic assumption (hence naive) that the events are independent of each other which is hardly a case in real life. Despite this, surprisingly, it performs very well for many problems such as email spam detection, text sentiment analysis, etc.
 
-![](images/tweet_nb_pic2.png)
+<img src="https://github.com/sssingh/tweet-sentiment-classification/blob/master/images/tweet_nb_pic2.png?raw=true>
 
 
-![](images/tweet_nb_pic3.png)
+<img src="https://github.com/sssingh/tweet-sentiment-classification/blob/master/images/tweet_nb_pic3.png?raw=true>
 
 
 ## How To Use
